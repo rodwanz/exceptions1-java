@@ -32,7 +32,7 @@ public class Excecao5 {
 	
 		try {
 			acc.withdraw(amount);
-			System.out.printf("New balance: %.2fn", acc.getBalance());
+			System.out.printf("New balance: %.2f%n", acc.getBalance());
 		}
 		catch(BusinessException e) {
 			System.out.println(e.getMessage());
